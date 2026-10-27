@@ -1,0 +1,40 @@
+2026-09-30 22:29:27.016 IST [50220] LOG:  starting PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit
+2026-09-30 22:29:27.032 IST [50220] LOG:  listening on IPv6 address "::1", port 5433
+2026-09-30 22:29:27.033 IST [50220] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-09-30 22:29:27.239 IST [26524] LOG:  database system was shut down at 2026-09-30 22:28:39 IST
+2026-09-30 22:29:27.257 IST [50220] LOG:  database system is ready to accept connections
+2026-10-05 12:26:26.601 IST [35352] LOG:  starting PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit
+2026-10-05 12:26:26.612 IST [35352] LOG:  listening on IPv6 address "::1", port 5433
+2026-10-05 12:26:26.613 IST [35352] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-10-05 12:26:26.740 IST [45744] LOG:  database system was interrupted; last known up at 2026-10-01 09:05:45 IST
+2026-10-05 12:26:32.463 IST [45744] LOG:  could not open file "./logfile.log": sharing violation
+2026-10-05 12:26:32.463 IST [45744] DETAIL:  Continuing to retry for 30 seconds.
+2026-10-05 12:26:32.463 IST [45744] HINT:  You might have antivirus, backup, or similar software interfering with the database system.
+2026-10-05 12:26:59.345 IST [45744] LOG:  syncing data directory (fsync), elapsed time: 32.60 s, current path: ./pg_commit_ts
+2026-10-05 12:26:59.358 IST [45744] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-10-05 12:26:59.384 IST [45744] LOG:  redo starts at 0/1FDA748
+2026-10-05 12:26:59.384 IST [45744] LOG:  invalid record length at 0/1FDA850: expected at least 24, got 0
+2026-10-05 12:26:59.385 IST [45744] LOG:  redo done at 0/1FDA818 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-10-05 12:26:59.397 IST [41212] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-10-05 12:26:59.413 IST [41212] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.019 s; sync files=2, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1FDA850, redo lsn=0/1FDA850
+2026-10-05 12:26:59.422 IST [35352] LOG:  database system is ready to accept connections
+2026-10-26 22:25:23.475 IST [30488] LOG:  starting PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit
+2026-10-26 22:25:23.488 IST [30488] LOG:  listening on IPv6 address "::1", port 5433
+2026-10-26 22:25:23.488 IST [30488] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-10-26 22:25:23.639 IST [26920] LOG:  database system was interrupted; last known up at 2026-10-05 20:03:53 IST
+2026-10-26 22:25:29.544 IST [26920] LOG:  could not open file "./logfile.log": sharing violation
+2026-10-26 22:25:29.544 IST [26920] DETAIL:  Continuing to retry for 30 seconds.
+2026-10-26 22:25:29.544 IST [26920] HINT:  You might have antivirus, backup, or similar software interfering with the database system.
+2026-10-26 22:25:56.699 IST [26920] LOG:  syncing data directory (fsync), elapsed time: 33.05 s, current path: ./pg_commit_ts
+2026-10-26 22:25:56.720 IST [26920] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-10-26 22:25:56.746 IST [26920] LOG:  redo starts at 0/249DCC0
+2026-10-26 22:25:56.746 IST [26920] LOG:  invalid record length at 0/249DDC8: expected at least 24, got 0
+2026-10-26 22:25:56.746 IST [26920] LOG:  redo done at 0/249DD90 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-10-26 22:25:56.760 IST [24444] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-10-26 22:25:56.774 IST [24444] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.002 s, total=0.017 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/249DDC8, redo lsn=0/249DDC8
+2026-10-26 22:25:56.784 IST [30488] LOG:  database system is ready to accept connections
+2026-10-27 18:57:21.586 IST [19160] LOG:  starting PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit
+2026-10-27 18:57:21.595 IST [19160] LOG:  listening on IPv6 address "::1", port 5433
+2026-10-27 18:57:21.596 IST [19160] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-10-27 18:57:21.703 IST [7276] LOG:  database system was shut down at 2026-10-26 23:12:15 IST
+2026-10-27 18:57:21.733 IST [19160] LOG:  database system is ready to accept connections
